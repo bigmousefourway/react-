@@ -1,0 +1,13 @@
+git init      -->初始化repo，使檔案成為 repository
+
+git status    -->檢查此目錄下的狀態，是否有做過更動(新增檔案)
+
+git add       -->把檔案加入git 追蹤的檔案  (git add . 可以把目錄裡所有檔案都add進去)
+
+git commit    -->可以把repository存檔(按!可以跳開視窗)，加上 -m 就可以不用跳出文字編輯器，後面可以加上""，裡面加入你想對於這次commit想要說明的訊息
+
+git log       -->顯示這個repository過往的commit紀錄
+
+git remote add (名稱) 網址 --> 加入一個remote，把git hub的repository和本地端的連結
+
+git push(名稱)-->把repository放上git hub(如果加上-u 之後的push就會默認push到(名稱)那個branch)  --有點難理解，加上去就對了
